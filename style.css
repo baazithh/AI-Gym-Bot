@@ -388,3 +388,17 @@ body {
 
   .msg-bubble { max-width: 88%; }
 }
+.logo-icon {
+  display: inline-flex; /* To align vertically with text if needed */
+  align-items: center;  /* For vertical alignment */
+}
+
+.logo-img {
+  width: 24px; /* Set the width to match the emoji size */
+  height: 24px; /* Set the height to match the emoji size */
+  object-fit: contain; /* Ensures the image fits within the area without stretching */
+  /* Other optional styles: */
+  /* margin-right: 10px; Add some space if needed */
+ 
+}
+

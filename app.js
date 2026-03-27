@@ -168,7 +168,7 @@ topicBtns.forEach((btn) => {
 clearBtnEl.addEventListener("click", () => {
   chatHistory = [];
   messagesEl.innerHTML = "";
-  addMessage("bot", "Chat cleared! 💪 Ready for a fresh session. What are we working on today?");
+  addMessage("bot", "Chat cleared!  Ready for a fresh session. What are we working on today?");
 });
 
 menuToggleEl.addEventListener("click", () => sidebarEl.classList.toggle("open"));
