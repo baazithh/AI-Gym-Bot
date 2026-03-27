@@ -3,7 +3,7 @@
 // Get one at: https://aistudio.google.com → click "Get API Key" (no credit card needed!)
 const API_KEY = "AIzaSyAINA4FqOaGR9FjCHDuf49sNeIhVMPXx2M";
 
-const MODEL = "gemini-1.5-flash";
+const MODEL = "gemini-2.5-flash";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`;
 
 const SYSTEM_PROMPT = `You are GymBot, an expert bodybuilding and fitness coach. You help serious athletes and bodybuilders with:
