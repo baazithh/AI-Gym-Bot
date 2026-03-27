@@ -1,0 +1,20 @@
+# Environment variables (NEVER commit API keys)
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/settings.json
+.idea/
+
+# Node (if you add a backend later)
+node_modules/
+npm-debug.log*
+
+# Build output (if you add a bundler later)
+dist/
+build/
